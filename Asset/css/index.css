@@ -53,13 +53,17 @@ body{
 .home-body .content{
    
 }
-
+/* about */
 #about .row{
 display: flex;
 flex-direction: row;
 }
 
 
+/* SKILLS */
+.skill{
+    display: flex;
+}
 
 
 
