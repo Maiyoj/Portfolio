@@ -54,7 +54,10 @@ body{
    
 }
 
-
+#about .row{
+display: flex;
+flex-direction: row;
+}
 
 
 
