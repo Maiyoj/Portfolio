@@ -188,6 +188,7 @@ justify-content: space-evenly;
 }
 #services h1{
     text-align: center;
+    margin-bottom: 30px;
 }
 .service{
     display: flex;
@@ -207,3 +208,47 @@ justify-content: space-evenly;
 }
 
 
+/* Contact section */
+#contact{
+    background-color: white;
+}
+#contact  .h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+ .contacts{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     justify-content: space-around;
+     
+ }
+ .contacts .body{
+     width: 50%;
+     margin-left: 60px;
+
+ }
+ .contacts .form{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width:50% ;
+      margin-left: 60px;
+     padding: 20px;
+     margin-right: 50px;
+ }
+ .form input{   
+     width:88%;
+     margin-bottom: 20px;
+     padding: 20px;
+    
+ }
+  textarea{
+      width: 85%;
+      padding: 30px;
+  }
+
+   .contacts button{
+       color: blue;
+       margin-top: 20px;
+   }
