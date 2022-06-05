@@ -1,7 +1,7 @@
 # Porfolio
  ## By Valentine Maiyo
 ## Screenshot
- ![image](./Assests/images/screen.png)
+ ![image](./Asset/images/screen.png)
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
