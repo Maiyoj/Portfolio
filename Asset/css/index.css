@@ -42,7 +42,12 @@ nav{
     padding: 20px;
     font-weight: bold;
 }
-
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
 
 /* home */
 #home{
