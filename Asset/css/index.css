@@ -37,7 +37,6 @@ nav{
 }
 
 
-
 /* home */
 #home{
     display: flex;
@@ -61,12 +60,11 @@ nav{
     margin-left: 50px;
     font-size: 18px;
 }
-#home h3{
+h3{
     color: blue;
     font-size: 28px;
     padding-bottom: 10px;
-}
-#home h1{
+} h1{
     font-size: 48px;
 }
 
@@ -74,12 +72,12 @@ nav{
     margin-top: 30px;
 
 }
-#home .btn1{
+.btn1{
   background-color: white;
   border: 2px solid blue ;
   padding:20px 26px 20px 26px;
 }
-#home .btn2{
+ .btn2{
     background-color: white;
     border: 2px solid blue;
     padding:20px 26px 20px 26px;
@@ -100,9 +98,50 @@ nav{
 }
 
 /* about */
+
+#about{
+    margin-top: 100px;
+}#about .h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 #about .row{
 display: flex;
 flex-direction: row;
+justify-content: space-evenly;
+
+}
+
+#about .about-image{
+    width: 50%;
+    margin-left: 90px;
+}
+#about .about-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 150px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.about-content h1{
+    padding-bottom: 20px;
+}
+.about-content h3{
+    padding-bottom: 20px;
+}
+.about-buttons{
+    margin-top: 30px;
+    background-color: white;
+}
+
+.about-buttons a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
 }
 
 
