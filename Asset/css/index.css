@@ -186,13 +186,18 @@ justify-content: space-evenly;
 .service{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 90%;
+    margin-right: 30px;
+    margin-left: 50px;
 }
 .service .container{
     display: flex;
     flex-direction: column;
-    width: 20%;
+    flex-wrap: wrap;
+    width: 30%;
     margin-left: 20px;
+    border: 2px solid black;
+    padding: 20px 20px 20px 20px;
 }
 
 
