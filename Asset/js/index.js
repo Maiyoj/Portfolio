@@ -8,6 +8,7 @@ let position = navSticky.offsetTop;
 //function to when we scroll add class sticky to navbar
 function addClass(){
     if(window.pageYOffset>= position){
+        
         navSticky.classList.add("sticky")
     }
     else{
