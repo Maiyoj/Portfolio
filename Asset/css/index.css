@@ -42,10 +42,15 @@ nav{
 #home{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-   
-    
-  
+}
+
+@media only screen and (max-width: 1100px){
+    #home {
+        
+        flex-direction:column;
+    }
 }
 
 #home .home-body{
@@ -54,8 +59,37 @@ nav{
     flex-direction: column;
     margin-left: 50px;
     font-size: 18px;
+}
+#home h3{
+    color: blue;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+#home h1{
+    font-size: 48px;
+}
+
+#home .buttons{
+    margin-top: 30px;
 
 }
+#home .btn1{
+  background-color: white;
+  border: 2px solid blue ;
+  padding:20px 26px 20px 26px;
+}
+#home .btn2{
+    background-color: white;
+    border: 2px solid blue;
+    padding:20px 26px 20px 26px;
+}
+#home .buttons a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+  
+}
+
 .image1{
     margin-right: 50px;
 }
@@ -63,6 +97,7 @@ nav{
 .home-body .content{
    
 }
+
 /* about */
 #about .row{
 display: flex;
