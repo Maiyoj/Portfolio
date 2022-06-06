@@ -18,6 +18,7 @@ font-family: 'Lato', sans-serif;
 
 }
 
+
 nav{
     margin: 40px 40px 40px 30px;
    
@@ -45,6 +46,16 @@ nav{
     padding: 20px;
     font-weight: bold;
 }
+@media only screen and (max-width: 700px){
+    #navbar .nav-item li a{
+        
+padding: 1px;
+font-size: 14px;
+margin-top: 500px;
+font-weight: bold;
+      
+    }}
+
 
 
 .sticky{
@@ -84,6 +95,7 @@ nav{
         font-size: 10px;
        margin-left: 20px;
        margin-top: 20px;
+       width: 100%;
       
     }}
 
@@ -150,6 +162,14 @@ h1{
     margin-right: 80px;
 }
 
+@media only screen and (max-width: 700px){
+    #home .image1{
+        
+     width: 100%;
+    
+      margin-left: 13px;
+      
+    }}
 
 
 .home-body .content{
@@ -176,8 +196,6 @@ width: 100%;
 @media only screen and (max-width: 500px){
     #about .row{
        flex-direction: column;
-    
-     
        
     }}
 
@@ -196,6 +214,12 @@ width: 100%;
     padding: 10px;
    
 }
+@media only screen and (max-width: 500px){
+    #about .about-content{
+
+width: 100%;
+       
+    }}
 
 .about-content h1{
     padding-bottom: 20px;
@@ -235,15 +259,29 @@ width: 100%;
     .skill{
         
        flex-direction: column;
-       margin-bottom: 20px;
       
     }}
 .skill-set{
     font-size: 20px;
 }
+@media only screen and (max-width: 700px){
+    .skill-set{
+        
+       margin-left: 40px;
+      
+    }}
 .progress{
     width: 50%;
 }
+@media only screen and (max-width: 500px){
+    .progress{
+     width: 100%;
+     align-items: center;
+     margin-top: 20px;
+     margin-left: 40px;
+     
+       
+    }}
 .progress .container{
     background-color: gray;
     border-radius: 20px;
@@ -312,6 +350,9 @@ width: 100%;
     .service {
         
        flex-direction: column;
+       align-items:flex-start;
+       width: 100%;
+   
     }}
 
 .service .container{
