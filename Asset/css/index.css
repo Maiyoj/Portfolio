@@ -32,6 +32,12 @@ nav{
     font-weight: bold;
 
 }
+@media only screen and (max-width: 700px){
+    .logo{
+        
+     font-size: 20px;
+    }}
+
 
 
 .nav-item li{
@@ -50,7 +56,7 @@ nav{
     #navbar .nav-item li a{
         
 padding: 1px;
-font-size: 10px;
+font-size: 13px;
 margin-top: 500px;
 font-weight: bold;
       
