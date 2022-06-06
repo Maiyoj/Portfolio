@@ -101,7 +101,7 @@ font-weight: bold;
         font-size: 10px;
        margin-left: 20px;
        margin-top: 20px;
-       width: 100%;
+       width: 90%;
       
     }}
 
@@ -223,7 +223,7 @@ width: 100%;
 @media only screen and (max-width: 500px){
     #about .about-content{
 
-width: 100%;
+width: 95%;
        
     }}
 
